@@ -1,0 +1,139 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотограф Екатерина</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .services, .portfolio, .contact {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .services ul {
+            list-style-type: none; /* Убираем маркеры списка */
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Выравниваем элементы по центру */
+        }
+        .services ul li {
+            margin: 10px 0; /* Отступы между элементами списка */
+            font-size: 18px;
+        }
+        .portfolio img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Фотограф Екатерина</h1>
+        <p>Ваши воспоминания в каждом кадре</p>
+    </header>
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <section id="home">
+        <h2>Добро пожаловать в фотостудию "Кадр"!</h2>
+        <p>Мы предлагаем профессиональные услуги фотографии для любых мероприятий. Доверьте свои воспоминания нам!</p>
+    </section>
+    <section id="services" class="services">
+        <h2>Наши услуги</h2>
+        <ul>
+            <li>Свадебная фотосъемка</li>
+            <li>Портретная фотосъемка</li>
+            <li>Фотосъемка мероприятий</li>
+            <li>Ретушь и обработка фотографий</li>
+        </ul>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>Портфолио</h2>
+        <div>
+            <img src="https://via.placeholder.com/300" alt="Фото 1">
+            <img src="https://via.placeholder.com/300" alt="Фото 2">
+            <img src="https://via.placeholder.com/300" alt="Фото 3">
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами, чтобы заказать фотосъемку или задать вопросы:</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="email" placeholder="Ваш email" required>
+            <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Все права защищены.</p>
+    </footer>
+</body>
+</html>
